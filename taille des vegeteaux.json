@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taille des végétaux - Lucas Jardins</title>
+    <meta name="description" content="Taille des végétaux : haies, arbustes et arbres pour un jardin bien entretenu. Découvrez nos services spécialisés chez Lucas Jardins.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Taille des végétaux : Un entretien essentiel</h1>
+    <nav>
+        <ul>
+            <li><a href="debroussaillage.html">Débroussaillage</a></li>
+            <li><a href="taille-vegetaux.html">Taille des végétaux</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="importance">
+        <h2>Pourquoi tailler ses végétaux ?</h2>
+        <p>La taille permet de contrôler la croissance des végétaux, d'améliorer leur santé et d'embellir votre jardin.</p>
+        <img src="images/taille.jpg" alt="Un jardinier taillant une haie">
+    </section>
+
+    <section id="types">
+        <h2>Types de taille</h2>
+        <ul>
+            <li>✂️ **Taille de formation** : Guide la croissance des jeunes plants.</li>
+            <li>🌳 **Taille d’entretien** : Maintient une forme harmonieuse.</li>
+            <li>🍂 **Taille de fructification** : Favorise la production de fruits.</li>
+            <li>❌ **Taille sanitaire** : Élimine les branches mortes ou malades.</li>
+        </ul>
+    </section>
+
+    <section id="techniques">
+        <h2>Nos techniques de taille</h2>
+        <p>Nous adaptons notre technique selon la plante et la saison :</p>
+        <ul>
+            <li>✂️ **Taille douce** : Coupe légère pour préserver la forme naturelle.</li>
+            <li>🌿 **Taille sévère** : Pour les haies trop envahissantes.</li>
+            <li>⚡ **Taille en nuage** : Technique esthétique pour un rendu élégant.</li>
+        </ul>
+    </section>
+
+    <section id="meilleure-periode">
+        <h2>Quand tailler ses végétaux ?</h2>
+        <p>Le moment idéal dépend de la plante :</p>
+        <ul>
+            <li>🌸 **Printemps** : Pour la plupart des arbustes à floraison estivale.</li>
+            <li>🍁 **Automne** : Taille douce pour les haies et les arbres fruitiers.</li>
+            <li>❄️ **Hiver** : Période idéale pour les arbres caducs.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Besoin d’un expert ?</h2>
+        <p>Contactez-nous pour une taille adaptée à votre jardin.</p>
+        <a href="mailto:contact@lucasjardins.fr" class="btn">Nous contacter</a>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 Lucas Jardins - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>

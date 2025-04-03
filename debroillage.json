@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Débroussaillage - Lucas Jardins</title>
+    <meta name="description" content="Service de débroussaillage pour sécuriser et entretenir vos espaces verts. Évitez les incendies et valorisez votre jardin avec Lucas Jardins.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Débroussaillage : Sécurisez et entretenez votre terrain</h1>
+    <nav>
+        <ul>
+            <li><a href="debroussaillage.html">Débroussaillage</a></li>
+            <li><a href="taille-vegetaux.html">Taille des végétaux</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="definition">
+        <h2>Qu'est-ce que le débroussaillage ?</h2>
+        <p>Le débroussaillage est l'action d'éliminer les herbes hautes, les ronces et les végétaux envahissants afin de réduire les risques d’incendie et d’améliorer l’esthétique d’un terrain.</p>
+        <img src="images/debroussaillage.jpg" alt="Un terrain en cours de débroussaillage">
+    </section>
+
+    <section id="avantages">
+        <h2>Pourquoi débroussailler votre terrain ?</h2>
+        <ul>
+            <li>🌿 **Prévention des incendies** : Réduit les matières inflammables.</li>
+            <li>🏡 **Amélioration esthétique** : Un terrain propre et entretenu.</li>
+            <li>🦟 **Éloignement des nuisibles** : Moins de cachettes pour les rongeurs et les insectes.</li>
+            <li>✅ **Respect de la réglementation** : Obligatoire dans certaines zones à risque.</li>
+        </ul>
+    </section>
+
+    <section id="techniques">
+        <h2>Nos techniques de débroussaillage</h2>
+        <p>Nous utilisons différentes méthodes selon la taille et l’état du terrain :</p>
+        <ul>
+            <li>🌾 **Débroussaillage manuel** : Idéal pour les petits espaces.</li>
+            <li>🚜 **Débroussaillage mécanique** : Avec des broyeurs et débroussailleuses pour les grandes surfaces.</li>
+            <li>🔥 **Brûlage contrôlé (si autorisé)** : Pour éliminer rapidement la végétation sèche.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Besoin d'un devis ?</h2>
+        <p>Contactez-nous pour un débroussaillage efficace et sécurisé.</p>
+        <a href="mailto:contact@lucasjardins.fr" class="btn">Nous contacter</a>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 Lucas Jardins - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
