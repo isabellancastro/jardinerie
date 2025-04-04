@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Style pour le header */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #2e8b57;
+    color: white;
+}
+
+/* Conteneur pour les images dans le header */
+header .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacement entre les images */
+    margin-top: 20px;
+}
+
+/* Style des images dans le conteneur */
+header .image-container img {
+    width: 300px; /* Largeur fixe */
+    height: 200px; /* Hauteur fixe */
+    object-fit: cover; /* Assure que l'image couvre la zone sans déformation */
+    border-radius: 8px; /* Coins arrondis pour un style plus doux */
+}
+
+/* Section principale */
+main {
+    padding: 20px;
+}
+
+/* Style pour les titres des sections */
+section h2 {
+    color: #2e8b57;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Style des paragraphes */
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Section des contacts */
+#Contact {
+    background-color: #2e8b57;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#Contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#Contact li {
+    margin: 10px 0;
+}
+
+#Contact a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#Contact a:hover {
+    color: #ffcc00;
+}
