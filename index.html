@@ -1,29 +1,109 @@
-<footer>
-        <div id="CompanyInfoContainers">
-            <div class="info_container">
-                <a href="tel:0788760571">07 88 76 05 71</a>
-                <p>Horaires: du lundi au vendredi, de 8h00 – 18h00</p>
-            </div>
-            <img src="assets/images/assets_images_logo.png" alt="logo de l'entreprise Lucas Jardin">
-            <div class="info_container">
-                <a href="mailto:contact@lucasjardins.com">contact@lucasjardins.com</a>
-                <address>102 Chemin du Génie, 06000 Nice</address>
-            </div>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LucasJardins</title>
+    <meta name="description" content="Site vitrine d'un professionnel du paysagisme">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Open Graph pour FB, IG, Linkedin et autres RS-->
+     <meta property="og:title" content="Lyne Tissot, étudiante en 3ème année d'info-com à l'université de Nice Côte d'Azur">
+     <meta property="og:description" content="Lyne Tissot est une jeune fille de 20ans, faisant ces études à l'Université de Nice Côte d'Azur, la ville où elle a grandi">
+     <meta property="og:url" content="https://biographie-lynetissot.fr/étudiante-lyne-tissot.html">
+     <meta property="og:type" content="profile">
+     <meta property="profile:first_name" content="Lyne">
+     <meta property="profile:last_name" content="Tissot">
+     <meta property="profile:username" content="Lynette">
+     <meta property="profile:gender" content="female">
+     <meta property="og:image" content="https://biographie-lynetissot.fr/étudiante/lyne-tissot.webp">
+
+    <!-- Twitter cards-->
+    <meta name="twitter:title" content="Lyne Tissot, étudiante en 3ème année d'info-com à l'université de Nice Côte d'Azur">
+    <meta name="twitter:description" content="Lyne Tissot est une jeune fille de 20ans, faisant ces études à l'Université de Nice Côte d'Azur, la ville où elle a grandi">
+    <meta name="twitter:card" content="summary_large_image"> <!-- Aperçu avec grande image -->
+    <meta name="twitter:image" content="https://biographie-lynetissot.fr/images/lyne-tissot.webp"> <!-- URL permettant d'accéder à l'image -->
+    <meta name="twitter:creator" content="@Lyne_Tissot">
+    <meta name="twitter:site" content="@cvlynetissot">
+
+</head>
+<body>
+    <header>
+        <div class="contact-top">
+            <span>📅 Lundi-Vendredi: 8h-18h</span>
+            <a href="mailto:contact@lucasjardins.com">📧 contact@lucasjardins.com</a>
+            <a href="tel:0788760571">📞 07 88 76 05 71</a>
         </div>
-        <div id="NetworkContainers">
-            <a href=""><img src="assets/icons/fb-icon.svg" alt="Facebook icon"></a>
-            <a href=""><img src="assets/icons/ig-icon.svg" alt="Instagram icon"></a>
-        </div>
-        <div id="CreditContainers">
-            <p class="credit_container">Lucas Jardins © 2025. Refonte réalisée par :</p>
-            <ul class="credit_container">
-                <li><a href="team/lyne_tissot.html">Lyne Tissot</a></li>
-                <li><a href="team/isabella_n_castro.html">Isabella N. Castro</a></li>
-                <li><a href="">3rd person</a></li>
-                <li><a href="">4th person</a></li>
-                <li><a href="">5th person</a></li>
-                <li><a href="">6th person</a></li>
+        
+        <nav>
+            <img src="assets/images/logo.png" alt="Logo Lucas Jardins">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
+        </nav>
+        
+        <div class="hero">
+            <h1>LUCAS JARDIN</h1>
+            <p>Paysagiste professionnel depuis 25 ans</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <img src="assets/images/jardin.jpg" alt="Jardin aménagé">
+            <div>
+                <h2>Bienvenue chez Lucas Jardins</h2>
+                <p>Votre partenaire espaces verts pour des extérieurs magnifiques</p>
+            </div>
+        </section>
+
+        <section class="services">
+            <h2>Nos Services</h2>
+            <div class="service-grid">
+                <div>Création & Entretien</div>
+                <div>Système d'Arrosage</div>
+                <div>Plantations</div>
+                <div>Élagage</div>
+                <div>Taille de végétaux</div>
+                <div>Débroussaillage</div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <h2>Notre Expertise en chiffres</h2>
+            <div>
+                <p>25 ans d'expérience</p>
+                <p>1000 clients satisfaits</p>
+                <p>11 professionnels</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div>
+                <h2>Contactez-nous</h2>
+                <form>
+                    <input type="text" placeholder="Votre nom">
+                    <input type="email" placeholder="Votre email">
+                    <textarea placeholder="Votre message"></textarea>
+                    <button>Envoyer</button>
+                </form>
+            </div>
+            <div>
+                <p>📞 07 88 76 05 71</p>
+                <p>📧 contact@lucasjardins.com</p>
+                <p>🏠 102 Chemin du Génie, 06000 Nice</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Lucas Jardins - Tous droits réservés</p>
+        <div class="social">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
         </div>
     </footer>
 </body>
