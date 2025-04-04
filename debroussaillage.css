@@ -1,0 +1,125 @@
+/* Style de base pour tout le site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style pour le header */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #2e8b57;
+    color: white;
+}
+
+/* Conteneur pour les images dans le header */
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Style des images */
+.image-container img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Section principale */
+main {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Style des titres */
+h1, h2, h3, h4, h5 {
+    color: #2e8b57;
+    font-family: 'Georgia', serif;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+/* Style des paragraphes */
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Style des listes */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Section des contacts */
+#Contact {
+    background-color: #2e8b57;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#Contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#Contact li {
+    margin: 10px 0;
+}
+
+#Contact a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#Contact a:hover {
+    color: #ffcc00;
+}
+
+/* Style pour le footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
