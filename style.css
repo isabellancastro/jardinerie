@@ -1,0 +1,180 @@
+body footer {
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-image: url(../images/bg_footer2.webp);
+    background-size: cover;
+    margin-top: 50px;
+    padding: 75px 10dvw 25px;
+}
+
+body footer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body footer div#CompanyInfoContainers {
+    height: 50%;
+    justify-content: space-between;
+}
+body footer div#CompanyInfoContainers div.info_container {
+    min-width: 33%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+body footer div#CompanyInfoContainers div.info_container a {
+    font-weight: 700;
+    font-size: 2em;
+}
+body footer div#CompanyInfoContainers div.info_container address,
+body footer div#CompanyInfoContainers div.info_container p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+body footer div#CompanyInfoContainers img {
+    width: auto;
+    max-height: 100%;
+}
+body footer div#NetworkContainers {
+    height: 15%;
+    gap: 50px;
+}
+body footer div#NetworkContainers a {
+    height: 100%;
+}
+body footer div#NetworkContainers a img {
+    height: 100%;
+}
+body footer div#CreditContainers {
+    flex-direction: column;
+    gap: 5px;
+}
+body footer div#CreditContainers p {
+    color: white;
+}
+body footer div#CreditContainers ul {
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+body footer div#CreditContainers ul li:hover,
+body footer div#CompanyInfoContainers div.info_container a:hover {
+    color: #71a600;
+}
+
+/*  BREAKPOINTS  */
+
+/* mobile breakpoint */
+@media screen and (width <= 480px) {
+    h1 {
+        font-size: 5em;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    p,li, a {
+       font-size: .75em
+    }
+    body main section div.section_content hgroup p {
+        font-size: 1.5rem;
+    }
+
+    body header div.slider {
+        height: 100dvh;
+    }
+    body #BannerTop,body header div.nav_background {
+        display: none;
+    }
+
+    body > nav {
+        background-color: rgba(122, 122, 122, 0.7);
+    }
+    body > nav > ul {
+        width: auto;
+    }
+    ul.dropdown-menu {
+        background-color: rgba(122, 122, 122, 0.7);
+        left: -50%;
+        top: calc(100% + 14px);
+    }
+    body > nav > ul li a, body > nav > ul li button{
+        font-size: 12px;
+    }
+
+    body main section {
+        flex-direction: column;
+        height: max-content;
+    }
+    body main section:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+    body main section img.home_section_img {
+        width: 100%;
+    }
+
+    body main section#ServiceSection div.service_details {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    body main section#ServiceSection div.service_details div.service_card {
+        height: 100px;
+    }
+    body main section#ServiceSection div.service_details div.service_card p.service_name {
+        font-size: 1em;
+    }
+    body main section#ServiceSection div.service_details div.service_card:nth-child(even)::before,
+    body main section#ServiceSection div.service_details div.service_card:nth-child(odd)::before{
+        background-color: rgba(0,0,0,0.4);
+    }
+    body main section#ServiceSection div.service_details div.service_card:nth-child(2)::before,
+    body main section#ServiceSection div.service_details div.service_card:nth-child(3)::before,
+    body main section#ServiceSection div.service_details div.service_card:nth-child(6)::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: rgba(113,166,0,0.7);
+    }
+
+    body main section#StatSection div.section_content div.stat_card data {
+        font-size: 3rem;
+    }
+    body main section#StatSection div.section_content div.stat_card p.stat_desc {
+        text-align: center;
+    }
+
+    body main section#InfoSection div.section_content ul.info_list li.info_item img {
+        width: 24px;
+    }
+
+    body footer {
+        height: auto;
+    }
+    body footer div#CompanyInfoContainers {
+        flex-direction: column;
+    }
+    body footer div#CompanyInfoContainers img {
+        width: 50%;
+        height: auto;
+    }
+    body footer div#CompanyInfoContainers div.info_container a {
+        font-size: 1.75em;
+    }
+}
+/* tablet breakpoint */
+@media screen and (481px <= width <= 768px){
+
+}
