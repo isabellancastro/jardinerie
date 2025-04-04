@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+    <title>Fanny THEPENIER - Profil</title>
+    <meta name="description" content="Profil Fanny Thepenier, étudiante en troisième année d'Information-Communication">
+
+    <!--Open Graph pour FB, IG, Linked et autres RS-->
+    <meta property="og:title" content="FANNY THEPENIER">
+    <meta property="og:description" content="étudiante en troisème année d'Information Communication qui aime les voyages et la lecture">
+    <meta property="og:url" content="https.//isabellacastro.fr/presentation.html">
+    <meta property="og:type" content="profile">
+    <meta property="profie:first_name" content="Fanny">
+    <meta property="profie:last_name" content="Thepenier">
+    <meta property="profie:username" content="FannyThepenier">
+    <meta property="profie:gender" content="female">
+    <meta property="og:image" content="https....">
+    
+    <!--Twitter cards-->
+    <meta property="twitter:title" content="FANNY THEPENIER">
+    <meta property="twitter:description" content="étudiante en troisème année d'Information Communication qui aime les voyages et la lecture">
+    <meta property="twitter:card" content="summary large image"> <!--Aperçu avec grande image-->
+    <meta property="twitter:image" content=https..> <!--URL permett-->
+    <meta property="twitter:creator" content="@fannythepenier">
+
+
+</head>
+<body>
+    <header>
+        
+        <h1>FANNY THEPENIER</h1>    
+        <p> | Passionnée par la création, la lecture, les voyages | </p>
+    </header>
+    
+    <section>
+        <h2>À propos de moi</h2>
+        <p>Je m'appelle Fanny Thepenier, j'ai 20 ans, je suis actuellement en troisième année d'information et communication à Nice, je souhaite plus tard travailler dans la communication ou l'évènementielle</p>
+    </section>
+    
+    <section>
+        <h2>Expériences professionnelles</h2>
+        <p>
+        <ul>Stage de communication pour une durée de 2 mois au sein de la Mairie de Saint-Cyr-sur-Mer. </ul> 
+
+        <ul>Bénévole pour l'association Imarinaire, une association qui lutte pour la protection des fonds marins. 06000 Nice. </ul> 
+        <ul>Serveuse et Barmaid en restauration au restaurant Francesca. 13260 Cassis. </ul>
+
+        <ul>Serveuse en restauration au restaurant Calendal. 13260 Cassis. </ul>
+
+        <ul>Hotesse d'accueil en évènementielle. 06000 Nice. </ul>
+    </section>
+
+    <section> 
+        <h2>Mes Formations</h2>
+
+        <p> <u>Université Cote d'Azur</u></p>
+        <ul> Obtention de ma première et deuxième année de licence en Information-Communication. </ul>
+
+        <p> <u>Lycée Saint-Jean de Garguier </u></p>
+        <ul> Obtention du Baccalauréat Général Mention Bien </ul>
+        <ul> Spécialités Sciences économiques et sociales et Littérature Anglaise </ul>
+    </section>
+    
+    <section>
+        <h2>Centres d’intérêt</h2>
+        <ul> Lecture </ul>
+        <ul> Voyage </ul>
+        <ul> Piano </ul>
+    </section>
+
+    <section>
+        <h2> Mes compétences </h2>
+        <ul> Création de contenu visuel </ul>
+        <ul> Communication Evènementielle </ul>
+        <ul> Gestion des réseaux sociaux </ul>
+        <ul> Stratégie digitale </ul>
+        <ul> Techniques rédactionnelles </ul>
+    </section>
+</body>
+</html>
