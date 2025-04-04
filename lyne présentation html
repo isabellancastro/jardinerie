@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyne Tissot, étudiante en 3ème année d'info-com à l'université de Nice Côte d'Azur</title>
+    <meta name="description" content="Lyne Tissot est une jeune fille de 20ans, étudiant à l'Université de Nice Côte d'Azur, la ville où elle a grandi">
+
+     <!-- Lien vers le fichier CSS -->
+     <link rel="stylesheet" href="lyne.css">
+    </head>    
+
+    <!-- Open Graph pour FB, IG, Linkedin et autres RS-->
+     <meta property="og:title" content="Lyne Tissot, étudiante en 3ème année d'info-com à l'université de Nice Côte d'Azur">
+     <meta property="og:description" content="Lyne Tissot est une jeune fille de 20ans, faisant ces études à l'Université de Nice Côte d'Azur, la ville où elle a grandi">
+     <meta property="og:url" content="https://biographie-lynetissot.fr/étudiante-lyne-tissot.html">
+     <meta property="og:type" content="profile">
+     <meta property="profile:first_name" content="Lyne">
+     <meta property="profile:last_name" content="Tissot">
+     <meta property="profile:username" content="Lynette">
+     <meta property="profile:gender" content="female">
+     <meta property="og:image" content="https://biographie-lynetissot.fr/étudiante/lyne-tissot.webp">
+
+    <!-- Twitter cards-->
+    <meta name="twitter:title" content="Lyne Tissot, étudiante en 3ème année d'info-com à l'université de Nice Côte d'Azur">
+    <meta name="twitter:description" content="Lyne Tissot est une jeune fille de 20ans, faisant ces études à l'Université de Nice Côte d'Azur, la ville où elle a grandi">
+    <meta name="twitter:card" content="summary_large_image"> <!-- Aperçu avec grande image -->
+    <meta name="twitter:image" content="https://biographie-lynetissot.fr/images/lyne-tissot.webp"> <!-- URL permettant d'accéder à l'image -->
+    <meta name="twitter:creator" content="@Lyne_Tissot">
+    <meta name="twitter:site" content="@cvlynetissot">
+
+</head>
+<body>
+    <header>
+        <h1>Lyne Tissot, étudiante en 3ème année d'info-com à l'université de Nice Côte d'Azur</h1>
+        <nav>
+            <ul>
+                <li><a href="#enfance">Son enfance</a></li>
+                <li><a href="#parcourspro">Son parcours et sa formation</a></li>
+                <li><a href="#experiences">Ses experiences professionnelles</a></li>
+                <li><a href="#projets">Ses projets</a></li>
+                <li><a href="#sport">Ses actvitiés sportives</a></li>
+            </ul>     
+        </nav>
+    </header>
+    <main>
+        <section id="enfance">
+            <h2>L'enfance de Lyne Tissot</h2>
+            <div class="content-wrapper">
+            <p>Lyne Tissot, née à Nice le 20 juillet 2004, a grandi dans un environnement imprégné de culture, où l’art, la musique et le cinéma occupaient une place importante. Entourée de ses deux parents et de sa petite sœur, née en 2008, elle a passé son enfance et son adolescence dans un appartement du quartier du Port, un lieu animé et emblématique de Nice. Ce cadre de vie, mêlant dynamisme urbain et richesse culturelle, a nourri sa curiosité et son ouverture d’esprit, l’amenant à s’intéresser très tôt aux domaines de la communication et des arts.</p>
+            <img src="photo_lyne.jpg" alt="L'enfance de Lyne Tissot" class="right-image">
+        </div>
+     </section>
+        <section id="parcourspro">
+            <h2>Sa formation et son parcours professionel</h2>
+            <p>Après avoir obtenu son baccalauréat avec une mention assez bien en section européenne italien, Lyne Tissot a choisi de poursuivre ses études en information et communication à l’Université de Nice. Cependant, elle réalise rapidement que le cadre universitaire ne lui convient pas pleinement. Curieuse et dynamique, elle ressent le besoin d’être active, d’apprendre par l’expérience et de s’impliquer concrètement sur le terrain. C’est pourquoi, dès la rentrée de septembre 2025, elle aspire à intégrer un master en médiation culturelle. Ce choix lui permettrait de concilier son intérêt pour le travail avec les publics et les artistes, tout en mettant en avant l’importance de rendre la culture accessible à tous, notamment aux plus jeunes. Convaincue que chaque enfant devrait avoir l’opportunité de découvrir et d’expérimenter l’art sous toutes ses formes, elle souhaite contribuer à démocratiser la culture et à favoriser des rencontres enrichissantes entre les œuvres, les artistes et les spectateurs.</p>
+        </section>
+        <section id="experiences">
+            <h2>Ses experiences professionnelles</h2>
+            <div class="experiences-container">
+                <div>
+                    <p>Lyne Tissot est une jeune femme engagée, qui aime aider les autres et organiser des événements. Investie dans plusieurs associations, elle met son dynamisme au service de projets qui lui tiennent à cœur. Parmi eux, l’association Avanti Pilou lui permet d’organiser, chaque premier samedi de juillet, un événement sportif à Coaraze, son village natal, réunissant habitants et passionnés autour d’un moment convivial. Elle participe également, en collaboration avec d’autres bénévoles et la compagnie Gorgomar, à l’organisation du festival Clown Power, un événement culturel dédié aux arts du clown qui se tient chaque dernier week-end de septembre.</p>
+                    <img src="pilou1.jpg" alt="Engagement associatif">
+                    <img src="clownpower.jpg" alt="Engagement associatif">
+                </div>
+                <div>
+                    <p>En parallèle de son engagement associatif, Lyne a multiplié les expériences professionnelles à travers divers jobs étudiants. Elle a ainsi travaillé comme caissière chez Monoprix, serveuse en restauration et accompagnatrice scolaire en aide aux devoirs pour une collégienne. Ces expériences lui ont permis de développer un excellent sens du relationnel, une grande capacité d’adaptation et un goût prononcé pour le travail en équipe.</p>
+                    <img src="job.jpg" alt="Job étudiant">
+                </div>
+                <div>
+                    <p>Passionnée par la protection de l’environnement, elle est également membre active de l’association Imarinair, avec laquelle elle sensibilise les jeunes enfants à l’importance de préserver les fonds marins et notre planète. Convaincue que la culture et l’éducation jouent un rôle clé dans la prise de conscience écologique, elle s’investit pleinement dans ces actions de sensibilisation, cherchant toujours à allier engagement, transmission et créativité.</p>
+                    <img src="imarinair.jpg" alt="Engagement associatif">
+                </div>
+            </div>
+        </section>
+        <section id="projets">
+            <h2>Projets et ambitions</h2>
+            <p>Lyne Tissot prépare activement son voyage de trois semaines en sac à dos à la découverte de Bali et des îles environnantes. Ce road trip, elle le réalisera aux côtés de son copain, Maxim. Un rêve qu’ils nourrissent depuis toujours et pour lequel ils travaillent depuis deux ans afin de le concrétiser. Entre exploration des rizières en terrasse, immersion dans la culture balinaise, découvertes culinaires et aventures en pleine nature, leur programme s’annonce intense et passionnant. Ce voyage, au-delà d’être une escapade dépaysante, sera aussi une expérience enrichissante dont ils reviendront avec des souvenirs inoubliables et des histoires à raconter.</p>
+            <div class="bali-photo">
+                <img src="bali.jpg" alt="bali">
+            </div>
+        </section>
+        <section id="sport">
+            <h2>Activités Sportives</h2>
+            <p>Lyne Tissot est une grande passionnée de sport en plein air. Depuis son enfance, elle adore découvrir de nouveaux sports et aime le contact avec la nature. Voici une liste des sports qu'elle a pratiqué ou qu'elle pratique actuellement.</p>
+            <ul>
+                <li>Equitation (de ses 9ans jusqu'à ses 14ans).</li>
+                <li>Natation (autrefois en club mais désormais pour le plaisir).</li>
+                <li>Surf (les étés sur la Côte Basque).</li>
+                <li>Plongée (actuellement, Lyne Tissot est en formation pour obtenir son Niveau 1 de plongée, elle pourra alors plonger jusqu'à 20m de profondeur).</li>
+                <li>Ski (Tous les hivers si elle l'en a la possibilité )</li>
+            </ul>
+            <div class="sport-photos">
+                <img src="equitation.jpg" alt="Sport 1">
+                <img src="piscine.jpg" alt="Sport 2">
+                <img src="surf.jpg" alt="Sport 3">
+                <img src="plongee.jpg" alt="Sport 4">
+                <img src="ski.jpg" alt="Sport 5">
+            </div>
+        </section>
+        </main>
+    <footer>
+        <hr>
+        <p>(c)Univeristé Nice Côte d'Azur</p>
+    </footer>
+</body>
+
+</html>
