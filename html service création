@@ -69,11 +69,13 @@
                 <h2>Informations création et conception</h2>
                 <p>Nous sommes experts en création et conception de vos espaces verts. De l'aménagement judicieux des zones et différents espaces, aux choix des espèces, l'installation de l'arrosage, jusqu'a la plantation et l'entretien, nous intervenons et nous nous occupons de toutes les étapes</p>
             </section>
-            <section id="fournisseurs">
-                <h2>Fournisseurs</h2>
-                <p>Nos fournisseurs jouent un rôle clé dans la réussite de chaque projet. Ils fournissent non seulement les matériaux nécessaires, mais aussi des équipements spécialisés pour assurer la qualité et la durabilité des rénovations. Ces partenariats nous permettent de proposer des solutions variées et personnalisées, adaptées aux besoins spécifiques de chaque client.</p>
-                <p>L’entreprise sélectionne ses fournisseurs avec soin, en privilégiant ceux qui offrent des produits de haute qualité, respectent les délais et sont soucieux de l’impact environnemental de leurs matériaux. Grâce à cette collaboration, les projets de rénovation de terrasses peuvent être réalisés dans les meilleures conditions, tout en garantissant une finition impeccable et une longue durée de vie des installations.</p>
-                </section>
+            <section id="Pourquoi nous appeler ?">
+                <h2>Pourquoi nous appeler ?</h2>
+                <p>Vous rêvez d’un extérieur à votre image, agréable à vivre et facile à entretenir ? Chez lucasjardins, nous mettons notre expertise au service de vos envies à travers trois domaines clés : la création, la conception et l’entretien de vos espaces verts.</p>
+                <p>Création sur mesure : nous imaginons des jardins et aménagements paysagers qui s’adaptent à vos goûts, à l’environnement et à votre mode de vie. Du petit coin détente au grand espace paysager, chaque détail compte.</p>
+                <p>Conception professionnelle : grâce à notre savoir-faire et à des outils de conception modernes, nous vous proposons des plans clairs, esthétiques et optimisés, pour un rendu final fidèle à vos attentes.</p>
+                <p>Entretien régulier ou ponctuel : tailles, tontes, traitements, nettoyage… Nous assurons l’entretien de vos extérieurs pour qu’ils restent beaux et sains toute l’année.</p>
+            </section>
         </section>
     </main>
     <footer>
