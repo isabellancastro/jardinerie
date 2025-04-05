@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Lucas Jardins</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2e7d32;
+        }
+        .faq-item {
+            margin-bottom: 15px;
+        }
+        .question {
+            font-weight: bold;
+            cursor: pointer;
+            padding: 10px;
+            background: #2e7d32;
+            color: white;
+            border-radius: 5px;
+        }
+        .answer {
+            display: none;
+            padding: 10px;
+            background: #e8f5e9;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Foire aux Questions</h1>
+        
+        <div class="faq-item">
+            <div class="question">Quels services propose Lucas Jardins ?</div>
+            <div class="answer">Lucas Jardins offre des services de création et d’entretien de jardins, de systèmes d’arrosage, de plantations, d’élagage, de taille de végétaux et de débroussaillage.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="question">Intervenez-vous pour les particuliers et les professionnels ?</div>
+            <div class="answer">Oui, nous travaillons aussi bien pour les particuliers que pour les entreprises et collectivités.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">Dans quelles zones géographiques intervenez-vous ?</div>
+            <div class="answer">Nous intervenons principalement dans le département des Alpes Maritimes.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">Proposez-vous des devis gratuits ?</div>
+            <div class="answer">Oui, nous réalisons des devis gratuits et personnalisés après une première prise de contact.</div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.question').forEach(item => {
+            item.addEventListener('click', () => {
+                const answer = item.nextElementSibling;
+                answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
