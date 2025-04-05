@@ -7,32 +7,32 @@ body {
     line-height: 1.7;
 }
 
-/* En-tête */
+/* En-tÃªte */
 header {
     background: linear-gradient(to right, #ff7e5f, #feb47b);
     color: white;
     text-align: center;
     padding: 40px 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    font-family: 'Arial', sans-serif; /* Retour à la police simple pour l'en-tête */
+    font-family: 'Arial', sans-serif; /* Retour Ã  la police simple pour l'en-tÃªte */
 }
 
 header h1 {
     font-family: 'Arial', sans-serif; /* Police simple et uniforme */
-    font-size: 2.5rem; /* Taille réduite pour éviter l'effet écrasé */
+    font-size: 2.5rem; /* Taille rÃ©duite pour Ã©viter l'effet Ã©crasÃ© */
     letter-spacing: 1px;
     margin: 0;
 }
 
-/* Style pour le menu de navigation dans l'en-tête */
+/* Style pour le menu de navigation dans l'en-tÃªte */
 header nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex; /* Utilisation de flexbox pour un alignement facile */
-    justify-content: center; /* Centre les éléments horizontalement */
-    align-items: center; /* Centre les éléments verticalement */
-    gap: 20px; /* Espacement entre les éléments */
+    justify-content: center; /* Centre les Ã©lÃ©ments horizontalement */
+    align-items: center; /* Centre les Ã©lÃ©ments verticalement */
+    gap: 20px; /* Espacement entre les Ã©lÃ©ments */
 }
 
 header nav ul li {
@@ -55,23 +55,23 @@ header nav ul li a:hover {
 /* Style pour la section avec l'image et le texte */
 .content-wrapper {
     display: flex; /* Utilisation de flexbox pour aligner l'image et le texte */
-    justify-content: flex-start; /* L'alignement du texte à gauche et de l'image à droite */
+    justify-content: flex-start; /* L'alignement du texte Ã  gauche et de l'image Ã  droite */
     align-items: flex-start; /* Aligne verticalement le texte et l'image en haut */
     gap: 20px; /* Espace entre le texte et l'image */
 }
 
-/* Style pour l'image à droite */
+/* Style pour l'image Ã  droite */
 .right-image {
-    width: 150px; /* Réduction de la taille de l'image */
+    width: 150px; /* RÃ©duction de la taille de l'image */
     height: auto;
     border-radius: 8px; /* Arrondir les coins de l'image */
-    object-fit: cover; /* S'assurer que l'image reste bien proportionnée */
+    object-fit: cover; /* S'assurer que l'image reste bien proportionnÃ©e */
     transition: transform 0.3s ease-in-out; /* Animation pour l'effet de zoom */
 }
 
 /* Effet de zoom au survol */
 .right-image:hover {
-    transform: scale(1.1); /* Augmentation de la taille de l'image à 110% */
+    transform: scale(1.1); /* Augmentation de la taille de l'image Ã  110% */
 }
 
 /* Style pour le texte */
@@ -97,7 +97,7 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 1.1rem; /* Taille de police réduite pour plus de légèreté */
+    font-size: 1.1rem; /* Taille de police rÃ©duite pour plus de lÃ©gÃ¨retÃ© */
     font-weight: 500;
     transition: color 0.3s ease, transform 0.3s ease;
 }
@@ -123,7 +123,7 @@ section {
 }
 
 h2 {
-    font-size: 1.8rem; /* Taille réduite pour alléger */
+    font-size: 1.8rem; /* Taille rÃ©duite pour allÃ©ger */
     color: #333;
     border-bottom: 3px solid #ff7e5f;
     padding-bottom: 5px;
@@ -172,9 +172,9 @@ ul li {
 
 /* Styles pour les images */
 .experiences-container img {
-    width: 100%; /* Toutes les images auront la même largeur */
+    width: 100%; /* Toutes les images auront la mÃªme largeur */
     height: 200px; /* Hauteur uniforme */
-    object-fit: cover; /* Assure un bon cadrage sans déformation */
+    object-fit: cover; /* Assure un bon cadrage sans dÃ©formation */
     margin-top: 10px;
     border-radius: 10px;
     transition: transform 0.3s ease, opacity 0.3s ease; /* Animation */
@@ -182,17 +182,17 @@ ul li {
 
 /* Effet au survol */
 .experiences-container img:hover {
-    transform: scale(1.05); /* Agrandit légèrement l'image */
-    opacity: 0.8; /* Légère transparence */
+    transform: scale(1.05); /* Agrandit lÃ©gÃ¨rement l'image */
+    opacity: 0.8; /* LÃ©gÃ¨re transparence */
 }
 
 img {
-    max-width: 50%; /* Réduction de toutes les images */
+    max-width: 50%; /* RÃ©duction de toutes les images */
     height: auto;
 }
 
 img[src="job.jpg"] {
-    max-width: 100%; /* Garde "job.jpg" à sa taille normale */
+    max-width: 100%; /* Garde "job.jpg" Ã  sa taille normale */
 }
 
 .pilou-clown-container {
@@ -202,7 +202,7 @@ img[src="job.jpg"] {
 }
 
 .pilou-clown-container img {
-    width: 45%; /* Ajuste la taille pour qu'elles tiennent côte à côte */
+    width: 45%; /* Ajuste la taille pour qu'elles tiennent cÃ´te Ã  cÃ´te */
 }
 
 
@@ -219,7 +219,7 @@ p:hover, li:hover {
 }
 
 .bali-photo img {
-    width: 50%; /* Réduit la taille de l'image */
+    width: 50%; /* RÃ©duit la taille de l'image */
     height: auto;
     transition: transform 0.3s ease-in-out;
     border-radius: 10px; /* Arrondi les coins pour un meilleur rendu */
@@ -239,13 +239,13 @@ p:hover, li:hover {
 .sport-photos img {
     width: 150px; /* Taille uniforme */
     height: 150px;
-    object-fit: cover; /* Pour que l'image remplisse bien la zone sans être déformée */
+    object-fit: cover; /* Pour que l'image remplisse bien la zone sans Ãªtre dÃ©formÃ©e */
     border-radius: 10px; /* Arrondi des coins */
     transition: transform 0.3s ease; /* Effet de zoom au survol */
 }
 
 .sport-photos img:hover {
-    transform: scale(1.1); /* Légère agrandissement au survol */
+    transform: scale(1.1); /* LÃ©gÃ¨re agrandissement au survol */
 }
 
 /* Footer */
